@@ -6,6 +6,7 @@
     "prepare": "nitropack prepare",
     "build": "nitropack build",
     "dev": "nitropack dev",
+    "start": "node .output/server/index.mjs",
     "lint": "eslint . && prettier -c .",
     "lint:fix": "eslint --fix . && prettier -w .",
     "test": "pnpm lint && pnpm test:types",
